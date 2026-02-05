@@ -1,4 +1,4 @@
-# Gmail to WhatsApp Notification Service 📧➡️💬
+# Gmail to WhatsApp Notification Service 
 
 A Python-based automation tool that monitors unread Gmail emails and sends instant WhatsApp notifications using Twilio.  
 The system avoids duplicate alerts, marks emails as processed, and runs continuously in the background.
@@ -32,6 +32,8 @@ This project demonstrates real-world backend integration using third-party APIs,
 
 ## Project Structure
 
+```
+
 Gmail-notification-whatsapp/
 │
 ├── email_to_whatsapp.py
@@ -41,6 +43,8 @@ Gmail-notification-whatsapp/
 ├── package-lock.json  
 ├── credentials.json        (not pushed to GitHub)
 └── token.json              (not pushed to GitHub)
+
+```
 
 ---
 
@@ -87,8 +91,11 @@ pip install -r requirements.txt
 Create environment variables:
 
 TWILIO_ACCOUNT_SID=your_account_sid
+
 TWILIO_AUTH_TOKEN=your_auth_token
+
 TWILIO_WHATSAPP_NUMBER=whatsapp:+14155238886
+
 TO_WHATSAPP_NUMBER=whatsapp:+91XXXXXXXXXX
 
 ---
